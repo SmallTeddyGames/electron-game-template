@@ -37,7 +37,7 @@
     "element-plus": "^2.3.5",
     "sass": "^1.62.1",
     "sass-loader": "^14.1.0",
-    "unplugin-auto-import": "^0.16.1",
     "unplugin-vue-components": "^0.26.0"
+    "unplugin-auto-import": "^0.17.5",
   }
 }
