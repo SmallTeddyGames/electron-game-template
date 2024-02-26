@@ -1,5 +1,5 @@
 {
-  "name": "electron-vite-vue-demo",
+  "name": "electron-game-template",
   "version": "1.0.0",
   "main": "dist-electron/main/index.js",
   "description": "a demo for app with electron vite vue3 element-plus",
