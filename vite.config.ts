@@ -62,6 +62,36 @@ export default defineConfig(({ command }) => {
         }
       ]),
       AutoImport({
+        // targets to transform
+        include: [/\.[tj]sx?$/, /\.vue$/, /\.vue\?vue/, /\.md$/],
+
+        // global imports to register
+        imports: [
+            // vue auto import
+            'vue',
+            // vue-router auto import
+            {
+                'vue-router': [
+                    'createRouter',
+                    'createWebHistory'
+                ]
+            },
+            // @vueuse/core auto import
+            {
+                '@vueuse/core': [
+                    'createGlobalState',
+                    'useStorage',
+                    'useColorMode',
+                    'useFullscreen'
+                ]
+            },
+            // @/store auto import
+            {
+                '@/store': [
+                    'useGlobalState'
+                ]
+            }
+        ],
         resolvers: [ElementPlusResolver()],
       }),
       Components({
