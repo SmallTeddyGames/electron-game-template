@@ -35,7 +35,7 @@ const SamuraiAnimationState = [
   { name: 'jump', frames: 12 },
   { name: 'attack1', frames: 6 },
   { name: 'attack2', frames: 4 },
-  { name: 'attack3', frames: 5 },
+  { name: 'attack3', frames: 3 },
   { name: 'shield', frames: 2 },
   { name: 'hurt', frames: 2 },
   { name: 'dead', frames: 3 }
